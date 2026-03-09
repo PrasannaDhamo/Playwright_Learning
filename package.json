@@ -1,0 +1,27 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^25.3.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@faker-js/faker": "^10.3.0",
+    "ajv": "^8.18.0",
+    "allure-playwright": "^3.4.5",
+    "csv-parse": "^6.1.0",
+    "form-data": "^4.0.5",
+    "luxon": "^3.7.2",
+    "playwright": "^1.58.2",
+    "xlsx": "^0.18.5"
+  }
+}
