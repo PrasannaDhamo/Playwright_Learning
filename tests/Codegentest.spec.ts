@@ -16,7 +16,7 @@ test.use({
   ...devices['iPhone 15'],
 });
 
-test.only('test1', async ({ page }) => {
+test('test1', async ({ page }) => {
   await page.goto('https://www.demoblaze.com/index.html');
   await expect(page.getByRole('link', { name: 'PRODUCT STORE' })).toBeVisible();
   await expect(page.locator('#nava')).toMatchAriaSnapshot(`
